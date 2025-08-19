@@ -204,7 +204,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 const SizedBox(height: 12),
 
-                // Search
+                // Searchbar
                 TextField(
                   controller: _searchCtrl,
                   style: const TextStyle(color: Colors.white),
