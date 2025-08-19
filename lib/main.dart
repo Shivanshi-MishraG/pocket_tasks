@@ -229,7 +229,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 const SizedBox(height: 12),
 
-                // Task list
+                // list
                 Expanded(
                   child: tasks.isEmpty
                       ? const Center(
