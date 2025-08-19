@@ -93,7 +93,7 @@ class TasksController extends ChangeNotifier {
     persist();
   }
 
-  // Undo last change (if any)
+
   bool undo() {
     if (_snapshotBeforeAction == null) return false;
     _tasks = _snapshotBeforeAction!;
