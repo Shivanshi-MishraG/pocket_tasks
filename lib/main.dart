@@ -169,7 +169,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 const SizedBox(height: 18),
 
-                // Add task row
+                //Add task row
                 Row(
                   children: [
                     Expanded(
